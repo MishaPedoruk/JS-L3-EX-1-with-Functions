@@ -1,0 +1,46 @@
+function myFunk (){
+
+        function whileStart(bool){
+
+        while(bool){
+
+                let conf = confirm('Hello');
+                
+                if (conf === false){
+                
+                  bool = false;
+                  console.log('Робота програми завершена');
+
+               }
+
+                if (conf === true){
+
+                        function SecWhileStart(conf){
+        
+                        let fPrompt = parseInt(prompt('Перше число X'));
+                
+                        if(fPrompt > 1){
+                
+                            let sPrompt = parseFloat(prompt('Друге число Y'));
+                
+                            if(sPrompt <= 4){
+                
+                                switch(sPrompt){
+                
+                                    case sPrompt:
+                                        let tPrompt = alert(Math.pow(fPrompt , sPrompt));
+                                    break;
+                
+                                }
+                            }
+                        }
+                }
+                SecWhileStart();
+        }
+        
+        }
+}
+whileStart(true);
+
+}
+myFunk();
